@@ -1,0 +1,35 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn-primary:hover {
+  background-color: green;
+  border: none;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.card-body h2 {
+  color: #4CAF50;
+  font-weight: bold;
+  text-align: right;
+}
