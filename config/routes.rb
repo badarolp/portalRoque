@@ -1,4 +1,25 @@
 Rails.application.routes.draw do
+  
+  root 'site#index'
+  
+  get 'type/description'
+
+  get 'question/image'
+
+  get 'question/text'
+
+  get 'question/discipline'
+
+  get 'discipline/description'
+
+  get 'user/name'
+
+  get 'user/email'
+
+  get 'user/pass'
+
+  get 'user/type'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
